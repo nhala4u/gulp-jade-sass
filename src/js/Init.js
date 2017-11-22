@@ -5,6 +5,7 @@ var Mercedes = {} || "";
 (function() {
     Mercedes.Init = function() {
         Mercedes.PageLoad();
+        Mercedes.Contact();
     }
     Mercedes.PageLoad = function() {
         console.warn('||--> Task Pageload .!');
@@ -42,6 +43,14 @@ var Mercedes = {} || "";
         console.log('|/--> Task Devices ...');
 
     }
+    Mercedes.Contact = function() {
+        jQuery(document).off('change.checkbox').on('change.checkbox', '[type="checkbox"]', function(event) {
+            console.log('this', this);
+        });
+        // jQuery(document).off('change.selectItem').on('change.selectItem', '[type="checkbox"]', function() {
+        //     console.log('this', this);
+        // });
+    };
 })(jQuery)
 
 $(document).ready(function() {

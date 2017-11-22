@@ -2,4 +2,65 @@ form(id="ContactFrom", action="").contact-form
     .form-group
         label(for="name") Name*
         input(type="text" name="name").form-control
-    //- input(type="text", required, pattern="", placeholder="Enter your username")
+        span.error This field is required
+    .form-group
+        label(for="phone") Phone*
+        input(type="text" name="phone").form-control
+        span.error This field is required
+    .form-group
+        label(for="email") Email*
+        input(type="text" name="email").form-control
+        span.error This field is required
+    .form-group
+        label(for="method") Preferred Contact Method/Time
+        input(type="text" name="method").form-control
+        span.error This field is required
+    div.interest-in
+        p.field-title Interested In
+        div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+            .form-group
+                .checkbox
+                    input(type="checkbox" name="finance" id="finance").form-control
+                    label(for="finance") Finance
+        div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+            .form-group
+                .checkbox
+                    input(type="checkbox" name="leasing" id="leasing").form-control
+                    label(for="leasing") Leasing
+        div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+            .form-group
+                .checkbox
+                    input(type="checkbox" name="insurance" id="insurance").form-control
+                    label(for="insurance") Insurance
+    .form-group
+        label(for="method") Vehicle Interest
+        input(type="text" name="vehicle").form-control
+    .form-group
+        label(for="method") Enquiry
+        input(type="text" name="enquiry").form-control
+    div.privacy
+        p.field-title Privacy
+        span At Mercedes-Benz Financial Services Singapore, a part of the Daimler Group, we share your concerns regarding privacy and data security. When you provide us with your personal information, we will only disclose such information within the Daimler Group of Companies, your authorised dealer network and/or service providers who are acting on our behalf. You can either view our privacy statement here or by contacting our Privacy Officer at mbfs_sg@daimler.com
+    div.communication
+        p.field-title Future Communications
+        span In addition to the purpose of my enquiry, I provide my consent for MBFS, a part of the Daimler Group, our authorised dealer network and/or third party service providers to contact me for direct marketing purposes, including but not limited to newsletters, event notifications, invitations, updates and special offers from time to time. In relation to this, please communicate with me via:
+        div.communication-type
+            div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+                .form-group
+                    .checkbox
+                        input(type="checkbox" name="via-phone" id="via-phone").form-control
+                        label(for="via-phone") Phone
+            div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+                .form-group
+                    .checkbox
+                        input(type="checkbox" name="via-email" id="via-email").form-control
+                        label(for="via-email") Email
+            div.col-md-4.col-sm-4.col-xs-4.col-lg-4
+                .form-group
+                    .checkbox
+                        input(type="checkbox" name="via-sms" id="via-sms").form-control
+                        label(for="via-sms") SMS/MMS/IM
+    div.message-plugin
+        p.field-title Enter message as shown
+        div.message-content
+    button(type="submit" class="btn btn-primary") Submit
