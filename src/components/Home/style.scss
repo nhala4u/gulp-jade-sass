@@ -1,0 +1,57 @@
+.content .content-text {
+  background: #000;
+  color: white;
+  padding: 0 33px;
+}
+
+.content .content-text .title {
+  font-size: 30px;
+  letter-spacing: -0.3px;
+  color: #cfbd89;
+  padding: 43px 0 12px;
+}
+
+.content .content-text .sub-title {
+  font-size: 16px;
+  line-height: 1.44;
+  letter-spacing: -0.2px;
+}
+
+.content .content-text .service-list {
+  padding: 37px 0 16px;
+}
+
+.content .content-text .service-list .service {
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.content .content-text .service-list .service p {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  margin: 0;
+  position: absolute;
+  left: 62px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content .content-text .service-list .service img {
+  padding-right: 15px;
+}
+
+.content .content-img {
+  height: 219px;
+  overflow: hidden;
+}
+
+.content .content-img img {
+  width: 100%;
+  display: block;
+  /* top: 142px; */
+  /* top: 100%; */
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+}
