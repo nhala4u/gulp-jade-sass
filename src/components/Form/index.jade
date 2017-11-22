@@ -1,2 +1,5 @@
-form(id="ContactFrom", action="")
-    input(type="text", required, pattern="", placeholder="Enter your username")
+form(id="ContactFrom", action="").contact-form
+    .form-group
+        label(for="name") Name*
+        input(type="text" name="name").form-control
+    //- input(type="text", required, pattern="", placeholder="Enter your username")
