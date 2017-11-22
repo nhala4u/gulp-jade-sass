@@ -1,0 +1,182 @@
+$mercedes-font-path: '../fonts/mercedes/';
+// Daimler
+@font-face {
+    font-family: 'DaimlerCAC-Regular';
+    src: url($mercedes-font-path + 'DaimlerCAC-Regular.eot');
+    src: url($mercedes-font-path + 'DaimlerCAC-Regular.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'DaimlerCAC-Regular.woff2') format('woff2'), 
+         url($mercedes-font-path + 'DaimlerCAC-Regular.woff') format('woff'), 
+         url($mercedes-font-path + 'DaimlerCAC-Regular.ttf') format('truetype'), 
+         url($mercedes-font-path + 'DaimlerCAC-Regular.svg#DaimlerCAC-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaimlerCS-Regular';
+    src: url($mercedes-font-path + 'DaimlerCS-Regular.eot');
+    src: url($mercedes-font-path + 'DaimlerCS-Regular.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'DaimlerCS-Regular.woff2') format('woff2'), 
+         url($mercedes-font-path + 'DaimlerCS-Regular.woff') format('woff'), 
+         url($mercedes-font-path + 'DaimlerCS-Regular.ttf') format('truetype'), 
+         url($mercedes-font-path + 'DaimlerCS-Regular.svg#DaimlerCS-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaimlerCS-Demi';
+    src: url($mercedes-font-path + 'DaimlerCS-Demi.eot');
+    src: url($mercedes-font-path + 'DaimlerCS-Demi.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'DaimlerCS-Demi.woff2') format('woff2'), 
+         url($mercedes-font-path + 'DaimlerCS-Demi.woff') format('woff'), 
+         url($mercedes-font-path + 'DaimlerCS-Demi.ttf') format('truetype'), 
+         url($mercedes-font-path + 'DaimlerCS-Demi.svg#DaimlerCS-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaimlerCS-Light';
+    src: url($mercedes-font-path + 'DaimlerCS-Light.eot');
+    src: url($mercedes-font-path + 'DaimlerCS-Light.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'DaimlerCS-Light.woff2') format('woff2'), 
+         url($mercedes-font-path + 'DaimlerCS-Light.woff') format('woff'), 
+         url($mercedes-font-path + 'DaimlerCS-Light.ttf') format('truetype'), 
+         url($mercedes-font-path + 'DaimlerCS-Light.svg#DaimlerCS-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// CorporateA
+@font-face {
+    font-family: 'CorporateA-DemiItalic';
+    src: url($mercedes-font-path + 'CorporateA-DemiItalic.eot');
+    src: url($mercedes-font-path + 'CorporateA-DemiItalic.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-DemiItalic.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-DemiItalic.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-DemiItalic.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-DemiItalic.svg#CorporateA-DemiItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-Demi';
+    src: url($mercedes-font-path + 'CorporateA-Demi.eot');
+    src: url($mercedes-font-path + 'CorporateA-Demi.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-Demi.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-Demi.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-Demi.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-Demi.svg#CorporateA-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-LightItalic';
+    src: url($mercedes-font-path + 'CorporateA-LightItalic.eot');
+    src: url($mercedes-font-path + 'CorporateA-LightItalic.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-LightItalic.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-LightItalic.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-LightItalic.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-LightItalic.svg#CorporateA-LightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateACon-BolIta';
+    src: url($mercedes-font-path + 'CorporateACon-BolIta.eot');
+    src: url($mercedes-font-path + 'CorporateACon-BolIta.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateACon-BolIta.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateACon-BolIta.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateACon-BolIta.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateACon-BolIta.svg#CorporateACon-BolIta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-BoldItalic';
+    src: url($mercedes-font-path + 'CorporateA-BoldItalic.eot');
+    src: url($mercedes-font-path + 'CorporateA-BoldItalic.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-BoldItalic.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-BoldItalic.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-BoldItalic.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-BoldItalic.svg#CorporateA-BoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateACon-RegIta';
+    src: url($mercedes-font-path + 'CorporateACon-RegIta.eot');
+    src: url($mercedes-font-path + 'CorporateACon-RegIta.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateACon-RegIta.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateACon-RegIta.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateACon-RegIta.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateACon-RegIta.svg#CorporateACon-RegIta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-Regular';
+    src: url($mercedes-font-path + 'CorporateA-Regular.eot');
+    src: url($mercedes-font-path + 'CorporateA-Regular.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-Regular.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-Regular.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-Regular.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-Regular.svg#CorporateA-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateACon-Bol';
+    src: url($mercedes-font-path + 'CorporateACon-Bol.eot');
+    src: url($mercedes-font-path + 'CorporateACon-Bol.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateACon-Bol.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateACon-Bol.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateACon-Bol.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateACon-Bol.svg#CorporateACon-Bol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-Bold';
+    src: url($mercedes-font-path + 'CorporateA-Bold.eot');
+    src: url($mercedes-font-path + 'CorporateA-Bold.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-Bold.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-Bold.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-Bold.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-Bold.svg#CorporateA-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateA-Light';
+    src: url($mercedes-font-path + 'CorporateA-Light.eot');
+    src: url($mercedes-font-path + 'CorporateA-Light.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateA-Light.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateA-Light.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateA-Light.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateA-Light.svg#CorporateA-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CorporateACon-Reg';
+    src: url($mercedes-font-path + 'CorporateACon-Reg.eot');
+    src: url($mercedes-font-path + 'CorporateACon-Reg.eot?#iefix') format('embedded-opentype'), 
+         url($mercedes-font-path + 'CorporateACon-Reg.woff2') format('woff2'), 
+         url($mercedes-font-path + 'CorporateACon-Reg.woff') format('woff'), 
+         url($mercedes-font-path + 'CorporateACon-Reg.ttf') format('truetype'), 
+         url($mercedes-font-path + 'CorporateACon-Reg.svg#CorporateACon-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

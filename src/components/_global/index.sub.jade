@@ -1,0 +1,29 @@
+doctype html
+
+html(lang="en" class="no-js")
+
+	head
+		title= title
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+		link(rel="stylesheet" href="./vendors/package.min.css") 
+		link(rel="stylesheet" href="./css/style.min.css") 
+
+	body(class="subpage" data-page="subpage")
+
+		div(class="container")
+			div(class="row" data-name="header")
+				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
+					block HEADER
+			div(class="row" data-name="container")
+				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
+					block SUBPAGE
+			div(class="row" data-name="footer")
+				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
+					block FOOTER
+		div(id="back-top" class="back-top js-back-top")
+
+		script(type="text/javascript" src="./vendors/package.min.js")
+		script(type="text/javascript" src="./js/bundle.min.js")
+
+		

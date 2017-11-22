@@ -1,0 +1,25 @@
+$DaimlerCAC-Regular     : 'DaimlerCAC-Regular', Helvetica, Arial, sans-serif;
+$DaimlerCS-Demi         : 'DaimlerCS-Demi', Helvetica, Arial, sans-serif;
+$DaimlerCS-Light        : 'DaimlerCS-Light', Helvetica, Arial, sans-serif;
+$DaimlerCS-Regular      : 'DaimlerCS-Regular', Helvetica, Arial, sans-serif;
+$CorporateA-Bold        : 'CorporateA-Bold', Helvetica, Arial, sans-serif;
+$CorporateA-BoldItalic  : 'CorporateA-BoldItalic', Helvetica, Arial, sans-serif;
+$CorporateA-Demi        : 'CorporateA-Demi', Helvetica, Arial, sans-serif;
+$CorporateA-DemiItalic  : 'CorporateA-DemiItalic', Helvetica, Arial, sans-serif;
+$CorporateA-Light       : 'CorporateA-Light', Helvetica, Arial, sans-serif;
+$CorporateA-LightItalic : 'CorporateA-LightItalic', Helvetica, Arial, sans-serif;
+$CorporateA-Regular     : 'CorporateA-Regular', Helvetica, Arial, sans-serif;
+$CorporateACon-Bol      : 'CorporateACon-Bol', Helvetica, Arial, sans-serif;
+$CorporateACon-BolIta   : 'CorporateACon-BolIta', Helvetica, Arial, sans-serif;
+$CorporateACon-Reg      : 'CorporateACon-Reg', Helvetica, Arial, sans-serif;
+$CorporateACon-RegIta   : 'DaimlerCAC-Regular', Helvetica, Arial, sans-serif;
+
+body {
+    background-repeat: no-repeat;
+    background-position: center 0;
+    font-family: $DaimlerCS-Regular;
+    color: $mercedes-white;
+    background-image: url('../images/1024.jpg');
+}
+
+.mercedes-gold-color { color: $mercedes-gold; }

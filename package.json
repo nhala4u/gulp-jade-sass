@@ -1,0 +1,42 @@
+{
+    "name": "mercedes",
+    "version": "0.0.1",
+    "description": "Mercedes Ben",
+    "main": "gulpfile.js",
+    "license": "MIT",
+    "author": {
+        "name": "Vu Ho™",
+        "email": "vu.ho@pycogroup.com",
+        "phone": "+84(0)905.333.460"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build",
+        "server": "gulp server"
+    },
+    "devDependencies": {
+        "bootstrap-sass": "^3.3.7",
+        "browser-sync": "^2.18.13",
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-data": "^1.2.1",
+        "gulp-jade": "^1.1.0",
+        "gulp-minify": "^2.1.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-sequence": "^0.4.6",
+        "gulp-uglify": "^3.0.0",
+        "gulp-zip": "^4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://google.com/mercedes.git"
+    },
+    "keywords": [
+        "jade",
+        "gulp",
+        "sass",
+        "browsersync"
+    ]
+}
