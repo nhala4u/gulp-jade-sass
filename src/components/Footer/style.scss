@@ -1,3 +1,15 @@
 footer {
     position: relative
 }
+.form-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 9px;
+    .preferent-link {
+        a {
+            color: #ffffff;
+        }
+    }
+}

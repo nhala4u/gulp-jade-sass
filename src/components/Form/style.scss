@@ -1,10 +1,33 @@
 form {
     position: relative;
 }
+.row-no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
 .contact-form {
     background-color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
     button {
         border-radius: 0
+    }
+    .field-title {
+        padding-top: 20px;
+    }
+    .btn-group {
+        margin-top: 40px;
+        .btn {
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-top: 12px;
+            font-size: 18px;
+            letter-spacing: -0.2px;
+            img.arrow {
+                padding-left: 16px;
+            }
+        }
     }
 }
 .form-group {
@@ -57,7 +80,7 @@ input[type="text"] {
 .form-group .checkbox [type="radio"]:not(:checked) + label,
 .form-group .checkbox [type="radio"]:checked + label {
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     cursor: pointer;
 }
 .form-group .checkbox [type="checkbox"]:not(:checked) + label:before, 
@@ -92,7 +115,7 @@ input[type="text"] {
     font-size: 0.875rem;
     margin-top: 0;
     left: 0.3125rem;
-    top: 0.3125rem;
+    top: 0.1rem;
     width: 12px;
     height: 12px;
 }
@@ -106,10 +129,22 @@ input[type="text"] {
     border: solid 1px #979797;
 }
 @media only screen and (max-width: 480px) {
-    .communication-type, .interest-in {
-        div {
-            padding-left: 0;
-            padding-right: 0;
+    .contact-form {
+        .interest-in {
+            div {
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
+        .group-right {
+            padding-left: 0;
+        } 
+    }
+}
+@media only screen and (min-width: 768px) {
+    form {
+       .group-right {
+           padding-left: 40px;
+       } 
     }
 }
