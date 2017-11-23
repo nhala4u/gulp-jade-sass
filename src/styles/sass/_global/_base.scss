@@ -18,7 +18,37 @@ body {
     background-repeat: no-repeat;
     background-position: center 0;
     font-family: $DaimlerCS-Regular;
+    -webkit-font-smoothing: antialiased;
     color: $mercedes-white;
+    // background-image: url('../images/1024.jpg');
+}
+
+.mercedes-gold-color { color: $mercedes-gold; }
+
+.desktop, .tablet {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+@media (min-width: $screen-sm-min) {
+    .tablet {
+        display: block;
+    }
+    .mobile, .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    .desktop {
+        display: block;
+    }
+    .mobile, .tablet {
+        display: none;
+    }
 }
 
 .mercedes-gold-color { color: $mercedes-gold; }

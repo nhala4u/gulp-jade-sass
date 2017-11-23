@@ -11,16 +11,10 @@ html(lang="en" class="no-js")
 
 	body(class="homepage" data-page="homepage")
 
-		div(class="container")
-			div(class="row" data-name="header")
-				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
-					block HEADER
-			div(class="row" data-name="container")
-				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
-					block CONTAINER
-			div(class="row" data-name="footer")
-				div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12")
-					block FOOTER
+		block HEADER
+		block CONTAINER
+		block FOOTER
+	
 		div(id="back-top" class="back-top js-back-top")
 
 		script(type="text/javascript" src="./vendors/package.min.js")

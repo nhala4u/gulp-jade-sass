@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+    <defs>
+        <path id="a" d="M23.803.51H.36V30h23.442V.51z"/>
+        <path id="c" d="M0 30h29.835V.51H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h47v47H0z"/>
+        <path fill="#CFBD89" d="M8 39h13v-3H8z"/>
+        <g transform="translate(8 9)">
+            <g transform="translate(6.032)">
+                <mask id="b" fill="#fff">
+                    <use xlink:href="#a"/>
+                </mask>
+                <path fill="#CFBD89" d="M23.803 30l-.613-2.857c-1.025-4.724-7.103-6.532-9.102-7.437-1.998-.905-1.705-3.618-1.705-3.618 1.093-1.664 1.836-3.073 2.34-4.224a7.376 7.376 0 0 0 1.057-3.54c.015-.182.014-.276.014-.276 0-4.163-3.455-7.538-7.716-7.538C3.816.51.36 3.885.36 8.048c0 .41.043.81.108 1.204H.46c.009.046.022.092.03.138.025.134.054.266.086.398l.023.089c.057.22.121.435.197.647.883 2.604 2.842 5.062 2.842 5.062h2.367c1.749.1 2.073 2.31 2.073 2.31V30h15.725z" mask="url(#b)"/>
+            </g>
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#CFBD89" d="M0 25.277h13V22.62H0zM0 20.553h13v-2.656H0z" mask="url(#d)"/>
+        </g>
+    </g>
+</svg>

@@ -1,4 +1,6 @@
 $mercedes-font-path: '../fonts/mercedes/';
+$ionicons-font-path: '../fonts/ionicons/';
+
 // Daimler
 @font-face {
     font-family: 'DaimlerCAC-Regular';
@@ -177,6 +179,16 @@ $mercedes-font-path: '../fonts/mercedes/';
          url($mercedes-font-path + 'CorporateACon-Reg.woff') format('woff'), 
          url($mercedes-font-path + 'CorporateACon-Reg.ttf') format('truetype'), 
          url($mercedes-font-path + 'CorporateACon-Reg.svg#CorporateACon-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ionicons';
+    src: url($ionicons-font-path + 'ionicons.eot');
+    src: url($ionicons-font-path + 'ionicons.woff') format('woff'), 
+         url($ionicons-font-path + 'ionicons.ttf') format('truetype'),
+         url($ionicons-font-path + 'ionicons.svg?v=2.0.0#Ionicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
