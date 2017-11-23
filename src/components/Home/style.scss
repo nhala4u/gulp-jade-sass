@@ -39,16 +39,28 @@
     }
   }
   .content-img {
-    height: 219px;
+    position: relative;
     overflow: hidden;
-    img {
+    &:after {
+      content: "";
       display: block;
-      position: relative;
-      height: 100%;
-      width: auto;
+      padding-top: 68.4375%; // mobile size: 320x219 -> 68.4375%
+    }
+    .content-img-placeholder {
+      position: absolute;
       top: 0;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      img {
+        display: block;
+        position: relative;
+        height: 100%;
+        width: auto;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
     }
   }
 }
@@ -232,13 +244,18 @@
       }
     }
     .content-img {
-      height: 285px;
-      img {
-        width: 100%;
-        height: auto;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
+      // height: 285px;
+      &:after {
+        padding-top: 37.11%; // Tablet size 285x768 -> 37.11
+      }
+      .content-img-placeholder {
+        img {
+          width: 100%;
+          height: auto;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
       }
     }
   }
@@ -321,7 +338,30 @@ $content-text-width: 460px;
       min-height: 534px;
     }
     .content-img {
-      height: 534px;
+      &:after {
+        padding-top: 534px; // fix height on desktop
+      }
+      .content-img-placeholder {
+        img {
+          height: 100%;
+          width: auto;
+        }
+        img.img1 {
+          top: 0;
+          left: 50%;
+          transform: translateX(-67%);
+        }
+        img.img2 {
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        img.img3 {
+          top: 0;
+          left: 50%;
+          transform: translateX(-58%);
+        }
+      }
     }
     .row {
       margin: 0;
@@ -404,7 +444,17 @@ $content-text-width: 460px;
   }
 }
 
+// Large desktop
 @media (min-width: $screen-lg-min) {
+  .corp-content-wrapper {
+    .content {
+      .content-img .content-img-placeholder {
+        img.img1, img.img2, img.img3 {
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
   .corp-header {
     .header-background {
       .header-placeholder img {
