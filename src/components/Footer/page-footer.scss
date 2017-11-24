@@ -1,0 +1,46 @@
+footer.page-footer {
+  padding: 24px 64px 30px;
+  text-align: center;
+  .footer-icon {
+    margin-bottom: 35px;
+    .footer-item {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 0 12px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .footer-content {
+    p {
+      margin: 0;
+      font-size: 9px;
+      letter-spacing: -0.1px;
+      a {
+        color: white;
+        &:hover {
+          color: $mercedes-gold;
+        }
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: $screen-sm-min) {
+  footer.page-footer {
+    padding-top: 58px;
+    padding-bottom: 72px;
+    .footer-content p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  footer.page-footer {
+    padding-top: 27px;
+  }
+}
